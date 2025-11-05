@@ -1,4 +1,149 @@
- <section id="reservas">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Restaurante Sabores DAM — Cocina asturiana moderna</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Restaurante Sabores DAM, cocina asturiana moderna en Oviedo. Menú del día, terraza exterior, reservas y comida para llevar.">
+</head>
+<body>
+
+  <header>
+    <figure>
+      <img src="https://es.pngtree.com/freepng/classic-restaurant-logo-with-cutlery-and-plate_21108177.html" 
+           alt="Logotipo Restaurante Sabores DAM" width="160" height="120">
+      <figcaption>Restaurante Sabores DAM</figcaption>
+    </figure>
+
+    <h1>Restaurante Sabores DAM</h1>
+    <nav aria-label="Menú principal">
+      <a href="#inicio">Inicio</a> |
+      <a href="#menu">Carta</a> |
+      <a href="#reservas">Reservas</a> |
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  
+  <main id="inicio">
+    
+    <section id="menu">
+      <h2>Menú del día</h2>
+
+      <table border="1">
+        <caption>Menú del día — Cocina asturiana moderna</caption>
+        <thead>
+          <tr>
+            <th>Plato</th>
+            <th>Tipo</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Fabada asturiana con compango casero</td>
+            <td>Primer plato</td>
+            <td>7,50 €</td>
+          </tr>
+          <tr>
+            <td>Ensalada templada de queso de cabra y miel de brezo</td>
+            <td>Entrante</td>
+            <td>6,00 €</td>
+          </tr>
+          <tr>
+            <td>Merluza del Cantábrico a la sidra con patatinas panadera</td>
+            <td>Plato principal</td>
+            <td>12,50 €</td>
+          </tr>
+          <tr>
+            <td>Solomillo ibérico al Cabrales con guarnición de setas</td>
+            <td>Plato principal</td>
+            <td>13,00 €</td>
+          </tr>
+          <tr>
+            <td>Arroz con leche tradicional</td>
+            <td>Postre</td>
+            <td>4,00 €</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Menú completo: 18 € — Incluye pan y postre. Bebida no incluida.</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      
+      <section aria-label="Información adicional">
+        <details>
+          <summary>Información de alérgenos</summary>
+          <ul>
+            <li>Contiene gluten en algunos platos con pan o pasta casera.</li>
+            <li>Contiene lácteos en salsas, postres y cremas.</li>
+            <li>Posibles trazas de frutos secos y mariscos.</li>
+            <li>Huevos presentes en repostería y rebozados.</li>
+            <li>Solicita nuestra carta especial sin alérgenos si lo necesitas.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Política de reservas</summary>
+          <ol>
+            <li>Selecciona fecha, hora y número de comensales (máx. 6 personas).</li>
+            <li>Confirma la reserva por teléfono o correo electrónico.</li>
+            <li>Recibirás un mensaje de confirmación en menos de 24 horas.</li>
+            <li>La mesa se mantiene reservada durante 15 minutos tras la hora indicada.</li>
+            <li>Cancelaciones: por favor, avísanos con al menos 6 horas de antelación.</li>
+          </ol>
+        </details>
+      </section>
+    </section>
+
+  
+    <article>
+      <h2>Nuestros servicios</h2>
+      <ul>
+        <li>Terraza exterior con calefacción en invierno</li>
+        <li>Menú infantil con opciones saludables</li>
+        <li>Pago con tarjeta y Bizum</li>
+        <li>
+          Comida para llevar
+          <ol>
+            <li>Haz tu pedido por teléfono o WhatsApp (mín. 30 min antes).</li>
+            <li>Recibirás un número de pedido y la hora de recogida.</li>
+            <li>Pasa por la entrada principal y muestra tu número al personal.</li>
+            <li>Recoge tu pedido y disfruta de Sabores DAM en casa.</li>
+          </ol>
+        </li>
+      </ul>
+    </article>
+
+    <aside>
+      <h2>Información práctica</h2>
+      <dl>
+        <dt>Horario</dt>
+        <dd>Lunes a sábado: 12:00 – 23:00</dd>
+        <dd>Domingos: 12:00 – 17:00</dd>
+
+        <dt>Dirección</dt>
+        <dd>Calle Sabores, 42 — 33001 Oviedo</dd>
+
+        <dt>Accesibilidad</dt>
+        <dd>Entrada adaptada y baño accesible para personas con movilidad reducida.</dd>
+
+        <dt>Aparcamiento</dt>
+        <dd>Aparcamiento gratuito para clientes en la parte trasera del local.</dd>
+
+        <dt>Recomendación</dt>
+        <dd>Se aconseja reservar con antelación los viernes, sábados y festivos.</dd>
+
+        <dt>Eventos</dt>
+        <dd>Disponemos de salón privado para celebraciones y comidas de empresa.</dd>
+      </dl>
+    </aside>
+
+   
+    <section id="reservas">
       <p>
         <button id="openDialog" aria-controls="reservaDialog">Reservar mesa</button>
       </p>
@@ -20,4 +165,38 @@
   </main>
 
  
+  <footer id="contacto">
+    <address>
+      <strong><em>Restaurante Sabores DAM</em></strong><br>
+      Calle Sabores, 42 — Oviedo (Asturias)<br>
+      Tel: <a href="tel:+34985123456">985 123 456</a><br>
+      <a href="mailto:info@saboresdam.es">info@saboresdam.es</a><br>
+      <a href="http://www.saboresdam.es" target="_blank" rel="noopener">www.saboresdam.es</a>
+    </address>
+
+    <p>© 2025 Restaurante Sabores DAM. Todos los derechos reservados.</p>
+  </footer>
+
  
+  <script>
+    const openDialog = document.getElementById("openDialog");
+    const dialog = document.getElementById("reservaDialog");
+    const closeDialog = document.getElementById("closeDialog");
+
+    openDialog.addEventListener("click", () => {
+      dialog.showModal();
+    });
+
+    closeDialog.addEventListener("click", () => {
+      dialog.close();
+    });
+
+    // Permitir cerrar con la tecla Esc
+    document.addEventListener("keydown", e => {
+      if (e.key === "Escape" && dialog.open) {
+        dialog.close();
+      }
+    });
+  </script>
+</body>
+</html>
